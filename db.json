@@ -1,14 +1,34 @@
 {
-  "posts": [
+  "questions": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "ques": "What is NodeJS ?",
+      "options": {
+        "A" :"Library",
+        "B" :"Framework",
+        "C" :"Devops",
+        "D" :"Backend"
+      }
     },
     {
-      "title": "dcc",
-      "author": "crf",
-      "id": 2
+      "id": 2,
+      "ques": "What is Angular 2+ ?",
+      "options": {
+        "A" :"Library",
+        "B" :"Framework",
+        "C" :"Devops",
+        "D" :"Backend"
+      }
+    },
+    {
+      "id": 3,
+      "ques": "What is ReactJS ?",
+      "options": {
+        "A" :"Library",
+        "B" :"Framework",
+        "C" :"Devops",
+        "D" :"Backend"
+      }
     }
   ]
 }
