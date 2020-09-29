@@ -18,6 +18,19 @@
 
 // multiply 10 numbers by function currying
 
-const multiply2=a=>b=>b?multiply2(a*b):a
+// const multiply2=a=>b=>b?multiply2(a*b):a
 
-console.log(multiply2(1)(2)(3)(1)(2)(3)())
+// console.log(multiply2(1)(2)(3)(1)(2)(3)())
+const kk=[]
+function A(a,b,v){
+    kk.push(a)
+    kk.push(b)
+    kk.push(v)
+  console.log(kk)
+
+}
+
+
+
+A(1,2,3)
+A(1,2,3)
